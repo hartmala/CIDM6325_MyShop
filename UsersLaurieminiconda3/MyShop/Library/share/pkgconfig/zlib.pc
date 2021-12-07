@@ -1,0 +1,13 @@
+prefix=C:/Users/Laurie/Dropbox/CIDM 6325 - E-Commerce and Web Development/CIDM6325 - MyShop - Laurie Hackbarth/UsersLaurieminiconda3/MyShop/Library
+exec_prefix=C:/Users/Laurie/Dropbox/CIDM 6325 - E-Commerce and Web Development/CIDM6325 - MyShop - Laurie Hackbarth/UsersLaurieminiconda3/MyShop/Library
+libdir=C:/Users/Laurie/Dropbox/CIDM 6325 - E-Commerce and Web Development/CIDM6325 - MyShop - Laurie Hackbarth/UsersLaurieminiconda3/MyShop/Library/lib
+sharedlibdir=C:/Users/Laurie/Dropbox/CIDM 6325 - E-Commerce and Web Development/CIDM6325 - MyShop - Laurie Hackbarth/UsersLaurieminiconda3/MyShop/Library/lib
+includedir=C:/Users/Laurie/Dropbox/CIDM 6325 - E-Commerce and Web Development/CIDM6325 - MyShop - Laurie Hackbarth/UsersLaurieminiconda3/MyShop/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
